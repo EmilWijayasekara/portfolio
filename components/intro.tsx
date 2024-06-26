@@ -130,7 +130,6 @@ export default function Intro() {
           opacity: { duration: 4, repeat: Infinity, repeatType: "loop" },
         }}
       ></motion.div>
-
     </section>
   );
 }

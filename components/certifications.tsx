@@ -19,7 +19,7 @@ export default function Experience() {
       <SectionHeading>Certifications & Achievements</SectionHeading>
       <div className="flex flex-wrap justify-center max-w-[45rem]">
         <a
-          href="https://coursera.org/verify/professional-cert/7JWUVNL3Z83V"
+          href="https://www.credly.com/badges/527de692-7a52-47a9-9ac4-bc9e9df5aeb4/public_url"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -45,9 +45,6 @@ export default function Experience() {
         </a>
 
         <a
-          href="https://coursera.org/verify/7753LGQFJT5T"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <motion.div
             className={
@@ -58,14 +55,40 @@ export default function Experience() {
           >
             <div className="text-center">
               <img
-                src="/awste.png"
+                src="/cisconb.png"
                 alt="Certification Logo"
-                className="w-[15rem] mx-auto mb-[-1rem]"
+                className="w-[10rem] mx-auto mb-[2rem] mt-8"
               />
-              <h3 className="font-bold text-lg">
-                AWS Cloud Technical Essentials
-              </h3>
-              <p className="font-normal text-gray-500">Oct 2023</p>
+              <h3 className="font-bold text-lg">Cisco Networking Academy - Networking Basics</h3>
+              <p className="font-normal text-gray-500">Jun 2024</p>
+            </div>
+          </motion.div>
+        </a>
+
+        <a
+          href="https://coursera.org/verify/7753LGQFJT5T"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <motion.div
+            className={
+              "max-w-[20rem] w-full sm:max-w-[40rem] p-3 m-2 rounded-xl shadow-lg bg-gradient-to-r from-gray-800 to-sky-900/10 overflow-hidden cursor-pointer"
+            }
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <div className="flex items-center">
+              <img
+                src="/awslogo.png"
+                alt="Meta Logo"
+                className="w-[3.5rem] mr-4"
+              />
+              <div className="text-left">
+                <h3 className="font-bold text-lg">
+                  Amazon Web Services - Cloud Technical Essentials
+                </h3>
+                <p className="font-normal text-gray-500">Oct 2023</p>
+              </div>
             </div>
           </motion.div>
         </a>
