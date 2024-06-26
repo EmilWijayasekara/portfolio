@@ -75,7 +75,7 @@ export default function Intro() {
             </a>
 
             <a
-              className="bg-white/10 p-4 text-white/60 hover:text-gray-100 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+              className="bg-white/10 p-4 text-white/60 hover:text-gray-100 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
               href="https://github.com/EmilWijayasekara"
               target="_blank"
             >
@@ -83,7 +83,7 @@ export default function Intro() {
             </a>
 
             <a
-              className="bg-white/10 p-4 text-white/60 hover:text-red-200 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+              className="bg-white/10 p-4 text-white/60 hover:text-red-200 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
               href="mailto:emilshamen@gmail.com"
               target="_blank"
             >
@@ -91,7 +91,7 @@ export default function Intro() {
             </a>
 
             <a
-              className="bg-white/10 p-4 text-white/60 hover:text-green-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+              className="bg-white/10 p-4 text-white/60 hover:text-green-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
               href="https://open.spotify.com/user/db7oap8q6zsn2q72iooqt4zeg"
               target="_blank"
             >
@@ -112,6 +112,25 @@ export default function Intro() {
           </div>
         </motion.div>
       </div>
+
+      <motion.div
+        className="bg-[#075985] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"
+        animate={{ x: 100, opacity: [0, 1, 0] }}
+        transition={{
+          x: { type: "spring", stiffness: 100 },
+          opacity: { duration: 8, repeat: Infinity, repeatType: "loop" },
+        }}
+      ></motion.div>
+
+      <motion.div
+        className="bg-[#0f766e] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
+        animate={{ x: 100, opacity: [0, 1, 0] }}
+        transition={{
+          x: { type: "spring", stiffness: 100 },
+          opacity: { duration: 4, repeat: Infinity, repeatType: "loop" },
+        }}
+      ></motion.div>
+
     </section>
   );
 }
