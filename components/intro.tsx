@@ -10,7 +10,6 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import { SiGithub } from "react-icons/si";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { MdEmail } from "react-icons/md";
-import { FaSpotify } from "react-icons/fa";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
