@@ -27,7 +27,7 @@ export default function RootLayout({
         <meta name="description" content={metadata.description} />
       </Head>
       <body
-        className={`${inter.className} bg-gray-900 text-gray-50 text-opacity-90 relative pt-28 sm:pt-36`}
+        className={`${inter.className} bg-gray-900 text-gray-50 text-opacity-90 relative pt-28 sm:pt-36 select-none`}
       >
         <ThemeContextProvider>
           <ActiveSectionContextProvider>

@@ -11,7 +11,11 @@ export default function Experience() {
   const { theme } = useTheme();
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section
+      id="experience"
+      ref={ref}
+      className="scroll-mt-28 mb-28 sm:mb-40 select-none pointer-events-none"
+    >
       <SectionHeading>Education</SectionHeading>
       <div className="max-w-[53rem]">
         <motion.div className={"p-7 m-5 rounded-xl shadow-lg bg-white/5"}>
@@ -20,10 +24,10 @@ export default function Experience() {
           </h3>
           <p className="font-normal text-gray-500">Nugegoda, Sri Lanka.</p>
           <p className="mt-2 text-white/75">
-            Pursuing a Bachelor of Science (Hons) in Computer Science,
-            gaining comprehensive knowledge in programming, data structures,
-            algorithms, database management, and operating systems. My studies
-            also encompass advanced topics such as machine learning, artificial
+            Pursuing a Bachelor of Science (Hons) in Computer Science, gaining
+            comprehensive knowledge in programming, data structures, algorithms,
+            database management, and operating systems. My studies also
+            encompass advanced topics such as machine learning, artificial
             intelligence, and distributed systems. Through hands-on labs,
             projects, a major research initiative, and industrial training, I
             have developed a strong foundation in both the theoretical and

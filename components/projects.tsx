@@ -220,6 +220,15 @@ export default function Projects() {
           </div>
         </motion.div>
       </div>
+
+      <motion.div
+        className="bg-[#581c87] absolute sm:top-[100rem] top-[115rem] -z-10 left-[-50rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
+        animate={{ x: 100, opacity: [0, 1, 0] }}
+        transition={{
+          x: { type: "spring", stiffness: 100 },
+          opacity: { duration: 8, repeat: Infinity, repeatType: "loop" },
+        }}
+      ></motion.div>
     </section>
   );
 }

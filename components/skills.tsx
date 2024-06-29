@@ -29,7 +29,7 @@ export default function Skills() {
       className="mb-28 max-w-[30rem] sm:max-w-[50rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My Technical skills</SectionHeading>
-      <div className="flex flex-wrap justify-center my-2 gap-2 max-w-[40rem]">
+      <div className="flex flex-wrap justify-center my-2 gap-2 max-w-[40rem] cursor-pointer">
         <motion.div
           className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
           drag
@@ -246,6 +246,15 @@ export default function Skills() {
           <span>Python</span>
         </motion.div>
       </div>
+
+      <motion.div
+        className="bg-[#0f766e] absolute sm:top-[185rem] top-[230rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
+        animate={{ x: 100, opacity: [0, 1, 0] }}
+        transition={{
+          x: { type: "spring", stiffness: 100 },
+          opacity: { duration: 8, repeat: Infinity, repeatType: "loop" },
+        }}
+      ></motion.div>
     </section>
   );
 }
