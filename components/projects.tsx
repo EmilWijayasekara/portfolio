@@ -149,7 +149,7 @@ export default function Projects() {
               <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
                 InnoWave is a feature-rich note-taking app that goes beyond
                 traditional editors, offering a collaborative and visually
-                appealing workspace.
+                appealing workspace. (Group Project)
               </p>
               <div className="flex flex-wrap mt-3 text-xs">
                 <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">

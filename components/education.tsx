@@ -14,25 +14,20 @@ export default function Experience() {
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Education</SectionHeading>
       <div className="max-w-[53rem]">
-        <motion.div
-          className={
-            "p-7 m-5 rounded-xl shadow-lg bg-white/5"
-          }
-        >
+        <motion.div className={"p-7 m-5 rounded-xl shadow-lg bg-white/5"}>
           <h3 className="font-bold text-lg">
             University of Sri Jayewardenepura
           </h3>
           <p className="font-normal text-gray-500">Nugegoda, Sri Lanka.</p>
           <p className="mt-2 text-white/75">
-            I am studying for a Bachelor of Science (Hons) in Computer Science
-            at the University of Sri Jayewardenepura. The program covers a wide
-            range of topics including programming, data structures, algorithms,
-            database management, and operating systems. I’ve also studied
-            advanced subjects like machine learning, artificial intelligence,
-            and distributed systems. The coursework includes hands-on labs and
-            projects, a major research project, and industrial training,
-            providing a solid foundation in both theoretical and practical
-            aspects of computer science.
+            Pursuing a Bachelor of Science (Hons) in Computer Science,
+            gaining comprehensive knowledge in programming, data structures,
+            algorithms, database management, and operating systems. My studies
+            also encompass advanced topics such as machine learning, artificial
+            intelligence, and distributed systems. Through hands-on labs,
+            projects, a major research initiative, and industrial training, I
+            have developed a strong foundation in both the theoretical and
+            practical aspects of computer science.
           </p>
           <div className="flex flex-row-reverse mt-2 text-sm text-gray-400">
             Jun 2021 - Present
@@ -40,9 +35,7 @@ export default function Experience() {
         </motion.div>
 
         <motion.div
-          className={
-            "p-7 m-5 rounded-xl shadow-lg bg-white/5"
-          }
+          className={"p-7 m-5 rounded-xl shadow-lg bg-white/5 hidden"}
         >
           <h3 className="font-bold text-lg">Bandaranayake Central College</h3>
           <p className="font-normal text-gray-500">Veyangoda, Sri Lanka.</p>

@@ -89,15 +89,7 @@ export default function Intro() {
             >
               <MdEmail />
             </a>
-
-            <a
-              className="bg-white/10 p-4 text-white/60 hover:text-green-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
-              href="https://open.spotify.com/user/db7oap8q6zsn2q72iooqt4zeg"
-              target="_blank"
-            >
-              <FaSpotify />
-            </a>
-
+            
             <Link
               href="#contact"
               className="sm:mt-0 mt-4 group bg-cyan-800 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"

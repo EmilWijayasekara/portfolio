@@ -19,15 +19,13 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-center ">
-        I'm a final-year student at the University of Sri Jayewardenapura,
-        deeply passionate about computer hardware and troubleshooting. My
-        technical skills are robust, particularly in Java, and I'm currently
-        enhancing my expertise in .NET and C#. Additionally, I have hands-on
-        experience with graphic design, having worked on projects for local and
-        international clients. I actively contribute to my university's media
-        team and engage in various problem-solving platforms to refine my
-        skills. Beyond academics and technology, I'm a huge football fan,
-        enjoying both watching and playing the sport.
+        As an Undergraduate with a deep passion for computer hardware,
+        troubleshooting, data privacy, and graphic design, I merge creativity
+        with technical expertise. My robust problem-solving skills are developed
+        through active engagement in various platforms and contributions to the
+        media team. Beyond academics and technology, I'm a football player and
+        an avid fan of both football and Formula 1. I strive to push boundaries
+        and bring ideas to life.
       </p>
     </motion.section>
   );
