@@ -14,7 +14,7 @@ export default function Projects() {
       <SectionHeading>My projects</SectionHeading>
       <div className="text-sm">
         <motion.div
-          className="w-[25rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -50,7 +50,49 @@ export default function Projects() {
         </motion.div>
 
         <motion.div
-          className="w-[25rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div className="flex items-center">
+            <img
+              src="/projectPWP.jpg"
+              alt="Meta Logo"
+              className="w-[15.5rem] mr-4 rounded-lg hidden sm:block"
+            />
+            <div className="text-left">
+              <h2 className="font-bold text-3xl">Personal Web Page</h2>
+              <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
+                A dynamic portfolio website to highlight my projects,
+                demonstrating my expertise in front-end development and design.
+              </p>
+              <div className="flex flex-wrap mt-3 text-xs">
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  NEXT JS
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  REACT
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  TYPESCRIPT
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  TAILWIND CSS
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  FRAMER MOTION
+                </span>
+              </div>
+              <div className="mt-8 flex items-center text-gray-400">
+                <SiGithub className="mr-2" />
+                <span>Visit Project GitHub Repository</span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -92,7 +134,50 @@ export default function Projects() {
         </motion.div>
 
         <motion.div
-          className="w-[25rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div className="flex items-center">
+            <img
+              src="/projectInnoWave.jpg"
+              alt="Meta Logo"
+              className="w-[15.5rem] mr-4 rounded-lg hidden sm:block"
+            />
+            <div className="text-left">
+              <h2 className="font-bold text-3xl">InnoWave</h2>
+              <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
+                InnoWave is a feature-rich note-taking app that goes beyond
+                traditional editors, offering a collaborative and visually
+                appealing workspace.
+              </p>
+              <div className="flex flex-wrap mt-3 text-xs">
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  NEXT JS
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  TYPESCRIPT
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  REACT
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  Clerk
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  TAILWIND CSS
+                </span>
+              </div>
+              <div className="mt-8 flex items-center text-gray-400">
+                <SiGithub className="mr-2" />
+                <span>Visit Project GitHub Repository</span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

@@ -11,14 +11,14 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="my-28 max-w-[45rem] rounded-2xl text-center leading-8 sm:mb-40 scroll-mt-28 bg-gradient-to-r from-gray-900 to-slate-700/10 p-10 hover:scale-105"
+      className="my-[10rem] max-w-[45rem] rounded-2xl text-center leading-8 sm:mb-40 scroll-mt-28 p-10 hover:scale-105"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-center ">
         I'm a final-year student at the University of Sri Jayewardenapura,
         deeply passionate about computer hardware and troubleshooting. My
         technical skills are robust, particularly in Java, and I'm currently

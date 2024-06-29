@@ -20,7 +20,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-50 max-h-[90vh] text-center sm:my-10 scroll-mt-[100rem]"
+      className="mb-50 pt-10 text-center sm:my-10 scroll-mt-[100rem]"
     >
       <div className="mb-100 flex flex-col sm:flex-row items-center justify-center">
         <motion.div
@@ -30,7 +30,7 @@ export default function Intro() {
             type: "tween",
             duration: 0.2,
           }}
-          className="flex-shrink-0"
+          className="flex-shrink-1"
         >
           <Image
             src="/Emil.jpg"
@@ -39,7 +39,7 @@ export default function Intro() {
             height={300}
             quality={95}
             priority={true}
-            className="rounded-full object-cover border-[0.35rem] border-white/10 shadow-xl hover:scale-110 transition hover:border-white/10"
+            className="rounded-full object-cover border-[0.4rem] border-white/10 shadow-xl hover:scale-110 transition hover:border-white/10"
           />
         </motion.div>
 
