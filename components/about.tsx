@@ -18,8 +18,8 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-center ">
-        As an Undergraduate with a deep passion for computer hardware,
+      <p className="mb-3 text-center leading-normal sm:leading-relaxed">
+        An Undergraduate with a deep passion for computer hardware,
         troubleshooting, data privacy, and graphic design, I merge creativity
         with technical expertise. My robust problem-solving skills are developed
         through active engagement in various platforms and contributions to the

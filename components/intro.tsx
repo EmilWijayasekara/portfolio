@@ -19,7 +19,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-50 pt-10 text-center sm:my-10 scroll-mt-[100rem]"
+      className="mb-50 pt-2 sm:pt:10 text-center sm:my-12 scroll-mt-[100rem]"
     >
       <div className="mb-100 flex flex-col sm:flex-row items-center justify-center">
         <motion.div
@@ -29,7 +29,7 @@ export default function Intro() {
             type: "tween",
             duration: 0.2,
           }}
-          className="flex-shrink-1"
+          className="flex-shrink-0"
         >
           <Image
             src="/Emil.jpg"
@@ -38,7 +38,7 @@ export default function Intro() {
             height={300}
             quality={95}
             priority={true}
-            className="rounded-full object-cover border-[0.4rem] border-white/10 shadow-xl hover:scale-110 transition hover:border-white/10"
+            className="w-[13rem] sm:w-[18.75rem] rounded-full object-cover border-[0.4rem] border-white/10 shadow-xl hover:scale-110 transition hover:border-white/10"
           />
         </motion.div>
 
@@ -51,13 +51,13 @@ export default function Intro() {
           className="sm:ml-8 text-center sm:text-left"
         >
           <h1 className="mb-10 mt-4 px-4 text-2xl font-medium sm:text-4xl !leading-[0]">
-            <span className="mb-4 font-bold text-7xl">
+            <span className="mb-4 font-bold sm:text-7xl text-5xl">
               Hello, I'm Emil.
               <br />
             </span>
             <div className="mt-4">
-              <span className="text-xl">
-                A Final Year Computer Science Undergraduate. <br />
+              <span className="sm:text-xl text-sm text-white/70">
+                A Final Year Computer Science Undergraduate.<br />
                 Interested in Cybersecurity, Software Development and
                 Operations.
               </span>
@@ -88,7 +88,7 @@ export default function Intro() {
             >
               <MdEmail />
             </a>
-            
+
             <Link
               href="#contact"
               className="sm:mt-0 mt-4 group bg-cyan-800 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
