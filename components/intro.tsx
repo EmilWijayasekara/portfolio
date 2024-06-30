@@ -38,6 +38,7 @@ export default function Intro() {
             height={300}
             quality={95}
             priority={true}
+            onContextMenu={(e) => e.preventDefault()}
             className="w-[13rem] sm:w-[18.75rem] rounded-full object-cover border-[0.4rem] border-white/10 shadow-xl hover:scale-110 transition hover:border-white/10"
           />
         </motion.div>
@@ -57,7 +58,8 @@ export default function Intro() {
             </span>
             <div className="mt-4">
               <span className="sm:text-xl text-sm text-white/70">
-                A Final Year Computer Science Undergraduate.<br />
+                A Final Year Computer Science Undergraduate.
+                <br />
                 Interested in Cybersecurity, Software Development and
                 Operations.
               </span>

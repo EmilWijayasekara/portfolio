@@ -5,6 +5,9 @@ import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { SiGithub } from "react-icons/si";
+import { MdOutlineWeb } from "react-icons/md";
+import { BsGlobe } from "react-icons/bs";
+import { IoConstructSharp } from "react-icons/io5";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -42,8 +45,8 @@ export default function Projects() {
                 </span>
               </div>
               <div className="mt-12 flex items-center text-gray-400">
-                <SiGithub className="mr-2" />
-                <span>Visit Project GitHub Repository</span>
+                <IoConstructSharp className="mr-2" />
+                <span>Project on GitHub Currently Private</span>
               </div>
             </div>
           </div>
@@ -84,8 +87,10 @@ export default function Projects() {
                 </span>
               </div>
               <div className="mt-8 flex items-center text-gray-400">
-                <SiGithub className="mr-2" />
-                <span>Visit Project GitHub Repository</span>
+                <BsGlobe className="mr-2" />
+                <span>
+                  <a href="#">Experience the Full Project Online</a>
+                </span>
               </div>
             </div>
           </div>
@@ -169,8 +174,12 @@ export default function Projects() {
                 </span>
               </div>
               <div className="mt-8 flex items-center text-gray-400">
-                <SiGithub className="mr-2" />
-                <span>Visit Project GitHub Repository</span>
+                <BsGlobe className="mr-2" />
+                <span>
+                  <a href="https://innowave-app.vercel.app/" target="_blank">
+                    Experience the Full Project Online
+                  </a>
+                </span>
               </div>
             </div>
           </div>
