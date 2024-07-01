@@ -8,6 +8,9 @@ import { SiGithub } from "react-icons/si";
 import { MdOutlineWeb } from "react-icons/md";
 import { BsGlobe } from "react-icons/bs";
 import { IoConstructSharp } from "react-icons/io5";
+import { Section } from "@react-email/components";
+import { AiFillBehanceCircle } from "react-icons/ai";
+import { IoArrowForward } from "react-icons/io5";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -132,7 +135,12 @@ export default function Projects() {
               </div>
               <div className="mt-8 flex items-center text-gray-400">
                 <SiGithub className="mr-2" />
-                <span>Visit Project GitHub Repository</span>
+                <a
+                  href="https://github.com/EmilWijayasekara/gesture-controlled-bluetooth-speaker"
+                  target="_blank"
+                >
+                  <span>Visit Project GitHub Repository</span>
+                </a>
               </div>
             </div>
           </div>
@@ -223,11 +231,38 @@ export default function Projects() {
               </div>
               <div className="mt-8 flex items-center text-gray-400">
                 <SiGithub className="mr-2" />
-                <span>Visit Project GitHub Repository</span>
+                <a
+                  href="https://github.com/EmilWijayasekara/ForesterFannels-garment-retail-analytics-and-optimization-system"
+                  target="_blank"
+                >
+                  <span>Visit Project GitHub Repository</span>
+                </a>
               </div>
             </div>
           </div>
         </motion.div>
+      </div>
+
+      <div className="mt-[10rem]">
+        <SectionHeading>My Graphic Designing projects</SectionHeading>
+        <a href="https://www.behance.net/emilwijayasekara" target="_blank">
+          <div className="hidden sm:block relative bg-white/5 sm:max-w-[45rem] sm:h-[25.5rem] rounded-xl m-6 shadow-lg mt-[5rem] hover:scale-110 transition-all hover:shadow-2xl hover:bg-white/20">
+            <img
+              src="/projectDES.png"
+              alt=""
+              className="absolute p-3 top-[-3.7rem] rounded-xl"
+            />
+          </div>
+          <div className="sm:hidden block bg-white/5 w-[20rem] h-auto shadow-lg rounded-lg p-5 m-6 overflow-hidden cursor-pointer">
+            <img src="/projectDESMobile.jpg" alt="" className="rounded-lg shadow-lg" />
+            <div className="text-center mt-2">
+              Explore more of my design projects on{" "}
+              <span className="font-bold">
+                Béhance <IoArrowForward className="inline"/>
+              </span>
+            </div>
+          </div>
+        </a>
       </div>
 
       <motion.div
