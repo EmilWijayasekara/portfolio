@@ -5,11 +5,8 @@ import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { SiGithub } from "react-icons/si";
-import { MdOutlineWeb } from "react-icons/md";
 import { BsGlobe } from "react-icons/bs";
 import { IoConstructSharp } from "react-icons/io5";
-import { Section } from "@react-email/components";
-import { AiFillBehanceCircle } from "react-icons/ai";
 import { IoArrowForward } from "react-icons/io5";
 
 export default function Projects() {

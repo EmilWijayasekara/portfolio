@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
-import { FaFacebook, FaEnvelope } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { SiGithub } from "react-icons/si";
 import { PiInstagramLogoFill } from "react-icons/pi";
