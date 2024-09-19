@@ -8,6 +8,7 @@ import { SiGithub } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 import { IoConstructSharp } from "react-icons/io5";
 import { IoArrowForward } from "react-icons/io5";
+import { IoCloudOffline } from "react-icons/io5";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -23,30 +24,44 @@ export default function Projects() {
         >
           <div className="flex items-center">
             <img
-              src="/projectShopFusion.jpg"
+              src="/projectPersonalMediaServer.jpg"
               alt="Meta Logo"
               className="w-[15.5rem] mr-4 rounded-lg hidden sm:block"
             />
             <div className="text-left">
-              <h2 className="font-bold text-3xl">ShopFusion.</h2>
+              <h2 className="font-bold text-3xl">Personal Media Server</h2>
               <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
-                Comprehensive shop management system designed to streamline
-                retail operations. This project is still under development.
+                Cloud-based media server using Jellyfin to provide seamless
+                video and music streaming across multiple platforms, ensuring
+                smooth media experience.
               </p>
               <div className="flex flex-wrap mt-3 text-xs">
                 <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
-                  C#
+                  JELLYFIN
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  SONARR
                 </span>
                 <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
-                  .NET
+                  RADARR
                 </span>
                 <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
-                  GUNA UI
+                  PROWLARR
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  JELLYSEERR
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  DIGITALOCEAN
                 </span>
               </div>
-              <div className="mt-12 flex items-center text-gray-400">
-                <IoConstructSharp className="mr-2" />
-                <span>Project on GitHub Currently Private</span>
+              <div className="mt-8 flex items-center text-gray-400">
+                <BsGlobe className="mr-2" />
+                <span>
+                  <a href="mailto:emilshamen@gmail.com?subject=Request%20access%20for%20Personal%20Media%20Server">
+                    Request to experience the Full Project Online
+                  </a>
+                </span>
               </div>
             </div>
           </div>
@@ -89,7 +104,45 @@ export default function Projects() {
               <div className="mt-8 flex items-center text-gray-400">
                 <BsGlobe className="mr-2" />
                 <span>
-                  <a href="#">Experience the Full Project Online</a>
+                  <a href="#">You are here right now!</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div className="flex items-center">
+            <img
+              src="/projectHomeNetwork.jpg"
+              alt="Meta Logo"
+              className="w-[15.5rem] mr-4 rounded-lg hidden sm:block"
+            />
+            <div className="text-left">
+              <h2 className="font-bold text-3xl">
+                Home Network Control Center
+              </h2>
+              <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
+                Utilizes Pi-hole to monitor network activities, block ads, and
+                manage traffic, while also employing port-forwarding for network
+                management.
+              </p>
+              <div className="flex flex-wrap mt-3 text-xs">
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  PI-HOLE
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  DIGITALOCEAN
+                </span>
+              </div>
+              <div className="mt-8 flex items-center text-gray-400">
+                <IoCloudOffline className="mr-2" />
+                <span>
+                  <a href="#">Hosted privately</a>
                 </span>
               </div>
             </div>
@@ -138,6 +191,87 @@ export default function Projects() {
                 >
                   <span>Visit Project GitHub Repository</span>
                 </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div className="flex items-center">
+            <img
+              src="/projectRobot.jpg"
+              alt="Meta Logo"
+              className="w-[15.5rem] mr-4 rounded-lg hidden sm:block"
+            />
+            <div className="text-left">
+              <h2 className="font-bold text-3xl">Personal Assistant Robot</h2>
+              <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
+                The Personal Assistant Robot executes commands to play YouTube
+                music, perform Google searches, take notes, and set alarms,
+                streamlining daily tasks.
+              </p>
+              <div className="flex flex-wrap mt-3 text-xs">
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  ARDUINO
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  PYTHON
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  C++
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  ARDUINO IDE
+                </span>
+              </div>
+              <div className="mt-8 flex items-center text-gray-400">
+                <SiGithub className="mr-2" />
+                <a
+                  href="https://github.com/EmilWijayasekara/personal-assistant-robot"
+                  target="_blank"
+                >
+                  <span>Visit Project GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="max-w-[20rem] sm:max-w-[45rem] sm:w-[45rem] sm:h-[17rem] sm:p-3 sm:m-4 p-5 m-6 rounded-xl shadow-lg bg-white/5 overflow-hidden cursor-pointer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <div className="flex items-center">
+            <img
+              src="/projectShopFusion.jpg"
+              alt="Meta Logo"
+              className="w-[15.5rem] mr-4 rounded-lg hidden sm:block"
+            />
+            <div className="text-left">
+              <h2 className="font-bold text-3xl">ShopFusion.</h2>
+              <p className="font-normal text-gray-300 pt-3 text-sm pr-4">
+                Comprehensive shop management system designed to streamline
+                retail operations. This project is still under development.
+              </p>
+              <div className="flex flex-wrap mt-3 text-xs">
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  C#
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  .NET
+                </span>
+                <span className="bg-white/20 rounded-xl p-1 px-2 mr-1 mt-1 tracking-wider">
+                  GUNA UI
+                </span>
+              </div>
+              <div className="mt-12 flex items-center text-gray-400">
+                <IoConstructSharp className="mr-2" />
+                <span>Project on GitHub Currently Private</span>
               </div>
             </div>
           </div>
@@ -251,11 +385,15 @@ export default function Projects() {
             />
           </div>
           <div className="sm:hidden block bg-white/5 w-[20rem] h-auto shadow-lg rounded-lg p-5 m-6 overflow-hidden cursor-pointer">
-            <img src="/projectDESMobile.jpg" alt="" className="rounded-lg shadow-lg" />
+            <img
+              src="/projectDESMobile.jpg"
+              alt=""
+              className="rounded-lg shadow-lg"
+            />
             <div className="text-center mt-2">
               Explore more of my design projects on{" "}
               <span className="font-bold">
-                Béhance <IoArrowForward className="inline"/>
+                Béhance <IoArrowForward className="inline" />
               </span>
             </div>
           </div>
