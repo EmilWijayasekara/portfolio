@@ -87,7 +87,43 @@ export default function Skills() {
           dragElastic={0.5}
           whileTap={{ cursor: "grabbing" }}
         >
+          <span>Spring Boot</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
           <span>MySQL</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>MongoDB</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>Linux</span>
         </motion.div>
 
         <motion.div
@@ -171,7 +207,7 @@ export default function Skills() {
           dragElastic={0.5}
           whileTap={{ cursor: "grabbing" }}
         >
-          <span>AWS S3</span>
+          <span>GitLab</span>
         </motion.div>
 
         <motion.div
@@ -183,7 +219,7 @@ export default function Skills() {
           dragElastic={0.5}
           whileTap={{ cursor: "grabbing" }}
         >
-          <span>AWS EC2</span>
+          <span>Docker</span>
         </motion.div>
 
         <motion.div
@@ -195,7 +231,7 @@ export default function Skills() {
           dragElastic={0.5}
           whileTap={{ cursor: "grabbing" }}
         >
-          <span>AWD RDS</span>
+          <span>AWS</span>
         </motion.div>
 
         <motion.div
@@ -244,6 +280,18 @@ export default function Skills() {
           whileTap={{ cursor: "grabbing" }}
         >
           <span>Python</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>Figma</span>
         </motion.div>
       </div>
 
