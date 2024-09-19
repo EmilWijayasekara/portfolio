@@ -293,6 +293,54 @@ export default function Skills() {
         >
           <span>Figma</span>
         </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>Photoshop</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>Illustrator</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>Premiere Pro</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>UI/UX</span>
+        </motion.div>
       </div>
 
       <motion.div

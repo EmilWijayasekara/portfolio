@@ -104,7 +104,7 @@ export default function Projects() {
               <div className="mt-8 flex items-center text-gray-400">
                 <BsGlobe className="mr-2" />
                 <span>
-                  <a href="#">You are here right now!</a>
+                  You are here right now!
                 </span>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Projects() {
               <div className="mt-8 flex items-center text-gray-400">
                 <IoCloudOffline className="mr-2" />
                 <span>
-                  <a href="#">Hosted privately</a>
+                  Hosted privately
                 </span>
               </div>
             </div>
