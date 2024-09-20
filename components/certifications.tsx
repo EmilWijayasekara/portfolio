@@ -65,7 +65,7 @@ export default function Experience() {
               <h3 className="font-bold text-lg">
                 Google Cybersecurity Professional Certificate
               </h3>
-              <p className="font-normal text-gray-500">Oct 2023 - Feb 2024</p>
+              <p className="font-normal text-gray-500">Feb 2024</p>
             </div>
           </motion.div>
         </a>
