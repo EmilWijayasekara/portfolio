@@ -37,6 +37,12 @@ export default function Projects() {
               </p>
               <div className="flex flex-wrap mt-3 text-xs">
                 <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  DOCKER
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  PORTAINER
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
                   JELLYFIN
                 </span>
                 <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
@@ -103,9 +109,7 @@ export default function Projects() {
               </div>
               <div className="mt-8 flex items-center text-gray-400">
                 <BsGlobe className="mr-2" />
-                <span>
-                  You are here right now!
-                </span>
+                <span>You are here right now!</span>
               </div>
             </div>
           </div>
@@ -136,14 +140,18 @@ export default function Projects() {
                   PI-HOLE
                 </span>
                 <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  DOCKER
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
+                  PORTAINER
+                </span>
+                <span className="bg-white/20 rounded-full p-1 px-2 mr-1 mt-1 tracking-wider">
                   DIGITALOCEAN
                 </span>
               </div>
               <div className="mt-8 flex items-center text-gray-400">
                 <IoCloudOffline className="mr-2" />
-                <span>
-                  Hosted privately
-                </span>
+                <span>Hosted privately</span>
               </div>
             </div>
           </div>

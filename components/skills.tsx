@@ -159,7 +159,7 @@ export default function Skills() {
           dragElastic={0.5}
           whileTap={{ cursor: "grabbing" }}
         >
-          <span>Bootstrap</span>
+          <span>Bootstrap CSS</span>
         </motion.div>
 
         <motion.div
@@ -220,6 +220,18 @@ export default function Skills() {
           whileTap={{ cursor: "grabbing" }}
         >
           <span>Docker</span>
+        </motion.div>
+
+        <motion.div
+          className="flex items-center bg-white/10 p-3 rounded-lg text-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+          drag
+          dragDirectionLock
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+          dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+          dragElastic={0.5}
+          whileTap={{ cursor: "grabbing" }}
+        >
+          <span>Portainer</span>
         </motion.div>
 
         <motion.div
