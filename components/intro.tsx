@@ -60,8 +60,7 @@ export default function Intro() {
               <span className="sm:text-xl text-sm text-white/70">
                 A Final Year Computer Science Undergraduate.
                 <br />
-                Interested in Cybersecurity, Software Development and
-                Operations.
+                Interested in Software Development and Operations.
               </span>
             </div>
           </h1>
