@@ -64,7 +64,9 @@ export default function Projects() {
               <div className="mt-8 flex items-center text-gray-400">
                 <BsGlobe className="mr-2" />
                 <span>
-                  <a href="https://streamium.tech/">www.streamium.tech</a>
+                  <a href="https://streamium.tech/" target="_blank">
+                    www.streamium.tech
+                  </a>
                 </span>
               </div>
             </div>
