@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="mb-6 px-4 text-center text-gray-500 select-none pointer-events-none">
-        <div className="block text-xs">&copy; 2024 | Emil Wijayasekara</div>
+        <div className="block text-xs">&copy; 2025 | Emil Wijayasekara</div>
         <div className="block text-xs m-[-1]">
           Crafted with Passion and Precision.
         </div>

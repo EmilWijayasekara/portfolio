@@ -64,9 +64,7 @@ export default function Projects() {
               <div className="mt-8 flex items-center text-gray-400">
                 <BsGlobe className="mr-2" />
                 <span>
-                  <a href="mailto:emilshamen@gmail.com?subject=Request%20access%20for%20Personal%20Media%20Server">
-                    Request to experience the Full Project Online
-                  </a>
+                  <a href="https://streamium.tech/">www.streamium.tech</a>
                 </span>
               </div>
             </div>

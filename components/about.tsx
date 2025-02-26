@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3 text-center leading-normal sm:leading-relaxed">
         An Undergraduate with a deep passion for computer hardware,
         troubleshooting, data privacy, and graphic design, I merge creativity
-        with technical expertise. My robust problem-solving skills are developed
+        with technical expertise. My strong problem-solving skills are developed
         through active engagement in various platforms and contributions to the
         media team. Beyond academics and technology, I'm a football player and
         an avid fan of both football and Formula 1. I strive to push boundaries
